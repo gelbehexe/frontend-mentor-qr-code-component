@@ -76,7 +76,7 @@ module.exports = (env, argv) => {
                         web: "https://codepen.io/collection/VYvGBb",
                     },
                     sourceCode:
-                        "https://github.com/gelbehexe/frontend-mentor-frontend-mentor-qr-code-component",
+                        "https://github.com/gelbehexe/frontend-mentor-qr-code-component",
                     build_time: strftime("%Y/%m/%d %H:%M:%S"),
                 },
             }),
