@@ -1,0 +1,31 @@
+@use "sass:color";
+@use "../abstract/variables" as *;
+
+
+:root {
+    // font
+    --font-size-base: 16px;
+    --font-size-default: 15px;
+    --font-size-summary-amount: 1.9rem;
+    --font-size-title: 1.5rem;
+    --font-size-dayname: 0.75rem;
+    --font-weight-normal: #{$font-weight-normal};
+    --font-weight-bold: #{$font-weight-bold};
+
+    // colors
+    --clr-white: #{$clr-white};
+    --clr-light-gray: #{$clr-light-gray};
+    --clr-grayish-blue: #{$clr-grayish-blue};
+    --clr-dark-blue: #{$clr-dark-blue};
+
+    // -attribution
+    --clr-attribution-bg: var(--clr-white);
+    --clr-attribution-fg: var(--clr-dark-blue);
+
+    // border-radius
+    --border-radius-md: 10px;
+    --border-radius-lg: 20px;
+
+}
+
+

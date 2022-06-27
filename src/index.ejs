@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require("./assets/images/favicon-32x32.png") %>">
+    <title><%= // noinspection JSUnresolvedVariable
+        htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+<div class="wrapper">
+    <aside class="image">
+        <img src="<%= require("./assets/images/image-qr-code.png") %>" width="576" height="576" alt="">
+    </aside>
+    <div class="main-wrapper">
+        <header class="header">
+            <h1 class="header__title">Improve your front-end skills by building projects</h1>
+        </header>
+        <main class="main">
+            <p class="main__text">Scan the QR code to visit Frontend
+                Mentor and take your coding skills to
+                the next level</p>
+        </main>
+    </div></div>
+<aside class="attribution">
+    <div class="attribution__content">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="<%=
+        // noinspection JSUnresolvedVariable
+        user.web %>"><%= // noinspection JSUnresolvedVariable
+            user.name %></a> - Sourcecode at <a href="<%= // noinspection JSUnresolvedVariable
+        sourceCode %>">GitHub</a> - Last Build: <%= // noinspection JSUnresolvedVariable
+        build_time %>.
+    </div>
+</aside>
+</body>
+</html>

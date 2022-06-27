@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-prettier-scss"
+    ],
+    "plugins": [
+        "@namics/stylelint-bem"
+    ],
+    "ignoreFiles": [ "!**/*.{scss,css}"],
+    "rules": {
+        "plugin/stylelint-bem-namics": {
+            "patternPrefixes": [],
+            "helperPrefixes": []
+        },
+        "custom-property-pattern": "^_?([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+        "value-keyword-case": [
+            "lower",
+            {
+                "ignoreKeywords": ["optimizeSpeed"]
+            }
+        ],
+        "declaration-block-no-redundant-longhand-properties": [true, {
+            "ignoreShorthands": ["transition"]
+        }]
+    }
+}
